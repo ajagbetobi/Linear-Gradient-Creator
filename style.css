@@ -76,3 +76,9 @@ input{
     background: rgb(45, 79, 141);
     color: #fff;
 }
+
+@media (max-width: 992px){
+    main{
+        flex-direction: column;
+    }
+}

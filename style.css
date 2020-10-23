@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 main{
@@ -15,6 +16,7 @@ main{
     border: 2px solid lightslategray;
     border-radius: .1rem;
     padding: 1rem;
+  
 }
 
 .inputs , .results {

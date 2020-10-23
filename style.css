@@ -11,7 +11,6 @@
 main{
     display: flex;
     width: 70%;
-    height: 30vh;
     margin: 5rem auto;
     border: 2px solid lightslategray;
     border-radius: .1rem;
@@ -77,8 +76,25 @@ input{
     color: #fff;
 }
 
-@media (max-width: 992px){
+@media (max-width: 900px){
     main{
+        display: flex;
         flex-direction: column;
+    }
+    .inputs , .results {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .results {
+        margin-top: 1rem;
+    }
+    .visualResult {
+        
+        width: 80%;
+        height: 10rem;
+       
     }
 }

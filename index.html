@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradient Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <section class="inputs">
+           
+            <label for="color1">Color 1:
+                <input type="color" class="color1" id="colorInput">
+            </label>
+            <label for="color2"> Color 2:
+                <input type="color" class="color2" id="colorInput">
+            </label>
+            <label for="direction"> Direction:
+                <input type="text" class="direction" id="textInput">
+            </label>
+            <div class="activeBtns">
+                <p class="submitBtn">Make Gradient</p>
+                <p class="randomBtn">Random Gradient</p>
+            </div>
+            
+        </section>
+        <section class="results">
+            <p class="textResult"></p>
+            <div class="visualResult">
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
